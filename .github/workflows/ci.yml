@@ -58,6 +58,7 @@ jobs:
           name: build-artifact
           path: dist/apps/background/browser
   deploy:
+    needs: main
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
