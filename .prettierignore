@@ -4,3 +4,6 @@
 /.nx/cache
 /.nx/workspace-data
 .angular
+settings.json
+**/package.json
+**/project.json
