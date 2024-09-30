@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { MatToolbar, MatToolbarModule } from '@angular/material/toolbar';
+import { MatToolbar } from '@angular/material/toolbar';
 import { MatButton } from '@angular/material/button';
 @Component({
   standalone: true,
